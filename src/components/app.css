@@ -1,0 +1,55 @@
+.item-enter {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  
+  .item-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 300ms ease-in-out;
+  }
+  
+  .item-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .item-exit-active {
+    opacity: 0;
+    transform: translateX(200%);
+    transition: all 300ms ease-in-out;
+  }
+
+  .item{
+      list-style: none;
+  }
+
+
+  .alert-appear {
+    transform: translateX(-200px);
+  }
+  .alert-appear-active {
+    transform: translateX(0);
+    transition: transform 300ms linear;
+  }
+
+  .fade-enter {
+    transform: translateX(200px );
+  }
+  
+  
+  .fade-enter-active {
+    transform: translateX(0);
+    transition: transform 500ms linear;
+  }
+  
+  
+  .fade-exit {
+    transform: translateX(0);
+    transition: transform 500ms linear;
+  }
+  
+  
+  .fade-exit-active {
+    transform: translateX(200px);
+  }
